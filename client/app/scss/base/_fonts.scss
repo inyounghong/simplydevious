@@ -1,0 +1,50 @@
+/* OPEN SANS */
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/OpenSans-Bold-webfont.eot');
+    src: url('./fonts/OpenSans-Bold-webfont.woff') format('woff'),
+         url('./fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('./fonts/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/OpenSans-Regular-webfont.eot');
+    src: url('./fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('./fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('./fonts/OpenSans-Regular-webfont.svg#open_sansbold') format('svg');
+    font-weight: 400;
+}
+
+/* SOURCE SANS PRO */
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900');
+
+/* UBUNTU */
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url("./fonts/Ubuntu-B.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url("./fonts/Ubuntu-M.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url("./fonts/Ubuntu-R.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url("./fonts/Ubuntu-RI.ttf");
+    font-weight: 400;
+    font-style: italic;
+}

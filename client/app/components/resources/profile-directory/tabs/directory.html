@@ -1,0 +1,83 @@
+<div class="chunk">
+    <h2>Background<br>Image
+        <tooltip info="tooltips.getImageUrl"></tooltip>
+    </h2>
+    <div class="input">
+        <input type="text" ng-model="j.customBackground" placeholder="Image Source URL">
+    </div>
+</div>
+<div class="chunk">
+    <h2>Font
+        <tooltip info="tooltips.font"></tooltip>
+    </h2>
+    <div class="input">
+        <input type="text" ng-model="j.buttonFontFamily">
+    </div>
+</div>
+<div class="chunk top">
+    <h2>Font Style</h2>
+    <div class="input">
+        <label class="mr10"><input type="checkbox" ng-model="j.style.italic" class="check"> Italic</label>
+        <label class="mr10"><input type="checkbox" ng-model="j.style.bold" class="check"> Bold</label>
+        <label><input type="checkbox" ng-model="j.style.letterSpacing" class="check"> Letter Spacing</label>
+    </div>
+
+</div>
+
+<div class="chunk">
+    <h2>Font Size</h2>
+    <div class="input">
+        <input ng-model="j.buttonSize" type="range" class="rangeWithLabel" min="1" max="30">
+        <div class="range_label">{{j.buttonSize}}</div>
+    </div>
+    <h2>Position</h2>
+    <div class="input">
+        <input ng-model="j.topMargin" type="range" class="rangeWithLabel" min="0" max="100">
+        <div class="range_label">{{j.topMargin}}</div>
+    </div>
+
+    <h2>Padding</h2>
+    <div class="input">
+        <input ng-model="j.buttonPadding" type="range" class="rangeWithLabel" min="0" max="30">
+        <div class="range_label">{{j.buttonPadding}}</div>
+    </div>
+
+    <h2>Margin Y</h2>
+    <div class="input">
+        <input ng-model="j.buttonMargin" type="range" class="rangeWithLabel" min="0" max="20">
+        <div class="range_label">{{j.buttonMargin}}</div>
+    </div>
+
+    <h2>Margin X</h2>
+    <div class="input">
+        <input ng-model="j.sideMargin" type="range" class="rangeWithLabel" min="0" max="3.0" step="0.1">
+        <div class="range_label">{{j.sideMargin}}</div>
+    </div>
+
+    <h2>Roundness</h2>
+    <div class="input">
+        <input ng-model="j.buttonRadius" type="range" class="rangeWithLabel" min="0" max="20">
+        <div class="range_label">{{j.buttonRadius}}</div>
+    </div>
+
+    <h2>Width</h2>
+    <div class="input">
+        <input ng-model="j.maxWidth" type="range" class="rangeWithBigLabel" min="100" max="500">
+        <div class="range_label">{{j.maxWidth}}</div>
+    </div>
+
+    <h2></h2>
+    <div class="input">
+        <label><input type="checkbox" ng-model="j.includeTransitions">
+         Gradual Transitions</label>
+    </div>
+</div>
+
+<div class="chunk">
+    <h2>Transition</h2>
+    <div class="input">
+        <label class="mr10"><input type="checkbox" ng-model="j.transitionStyle.italic" class="check"> Italic</label>
+        <label class="mr10"><input type="checkbox" ng-model="j.transitionStyle.bold" class="check"> Bold</label>
+        <label><input type="checkbox" ng-model="j.transitionStyle.letterSpacing" class="check"> Letter Spacing</label>
+    </div>
+</div>

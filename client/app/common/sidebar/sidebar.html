@@ -1,0 +1,14 @@
+<form action="" class="newForm editingSidebar">
+    <!-- Tab -->
+    <div class="tab_menu normal">
+        <div ng-repeat="tab in vm.tabs" class="tabby" ng-class="vm.isSelected(tab) && 'selected'" ng-click="vm.changeTab(tab)">{{tab}}</div>
+    </div>
+
+    <!-- Page -->
+    <div ng-repeat="tab in vm.tabs" class="tab_page" ng-show="vm.isSelected(tab)">
+
+        <!-- <ng-include src="'/client/app/common/sidebar/sidebar.html'"></ng-include> -->
+        <!-- <ng-include src="'/client/app/components/resources/profile-directory/tabs/' + tab.toLowerCase() + '.html'"></ng-include> -->
+    </div>
+    <buttons-tab j=vm.j></buttons-tab>
+</form>

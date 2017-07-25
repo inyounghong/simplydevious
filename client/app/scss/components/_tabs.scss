@@ -1,0 +1,27 @@
+// Tabs
+
+.tab_menu {
+    width: 100%;
+    color: $w80;
+    background: $background;
+
+    .tabby {
+        background: $pink_dark;
+        &.selected {
+            background: $pink;
+            color: #fff;
+        }
+    }
+    .tabby:hover {
+        color: #fff;
+    }
+}
+
+.tabby {
+    @include ubuntu;
+    display: inline-block;
+    padding: 12px 0;
+    text-align: center;
+    cursor: pointer;
+    width: 25%;
+}

@@ -1,0 +1,29 @@
+@import "../../../scss/base/layout";
+@import "../../../scss/components/new_form";
+@import "../../../scss/components/tooltips";
+@import "../../../scss/components/editing_box";
+@import "../../../scss/components/popup";
+@import "../../../scss/components/tabs";
+
+$height: 550px;
+
+.editingBox {
+    .tab_page {
+        height: 500px;
+        overflow-y: auto;
+    }
+}
+
+.editingBox, .editingSidebar, .editingPreview {
+    height: $height!important;
+}
+
+.daInside {
+    margin-bottom: 25px!important;
+    overflow: hidden;
+}
+
+.gr-box{
+    max-height: 375px; // 350 max + 25 top
+    overflow: hidden;
+}
