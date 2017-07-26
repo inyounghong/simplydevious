@@ -1,6 +1,6 @@
+import './profile-directory.scss';
 import template from './profile-directory.html';
 import controller from './profile-directory.controller';
-import './profile-directory.scss';
 
 let profileDirectoryComponent = {
     restrict: 'E',
